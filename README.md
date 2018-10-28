@@ -18,9 +18,12 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 ## My project
 
-Fill in (either in English, or in Slovak):
+**Application description**: 
+	Aplikacia umozni pouzivatelovi vyhladavat lokacie spojene so sportom (fitness centra, plavarne, telocvicne):
+	- najblizsie podla markera, ktore budu nasledne oznacene 
+	- vo zvolenom okruhu, ktory poskytne pouzivatel ako vstup
+	- podla sportu, ktory pouzivatel zvolil
 
-**Application description**: `<fill in>`
 
 **Data source**: `<fill in>`
 
