@@ -1,3 +1,4 @@
+
 # General course assignment
 
 Build a map-based application, which lets the user see geo-based data on a map and filter/search through it in a meaningfull way. Specify the details and build it in your language of choice. The application should have 3 components:
@@ -15,16 +16,24 @@ Build a map-based application, which lets the user see geo-based data on a map a
 ## Data sources
 
 - [Open Street Maps](https://www.openstreetmap.org/)
+- [San Fransisco Fire incidents](https://data.sfgov.org/widgets/nuek-vuh3)
 
-## My project
+## San Francisco institutions
 
 **Application description**: 
-	Aplikacia umozni pouzivatelovi vyhladavat lokacie spojene so sportom (fitness centra, plavarne, telocvicne):
-	- najblizsie podla markera, ktore budu nasledne oznacene 
-	- vo zvolenom okruhu, ktory poskytne pouzivatel ako vstup
-	- podla sportu, ktory pouzivatel zvolil
+
+Aplikácia umožní používateľovi vyhľadávať vzdelávacie inštitúcie v oblasti San Fransica (škola, univerzita, knižnica):
+- najbližšie podľa markera, ktoré budu následne označené
+- vo zvolenom okruhu, ktorý poskytne používateľ ako vstup
+- ohraničený maximálnym počtom
+
+Dodatočná funkcionalita:
+- heatmapa požiarných incidentov
+- vyhľadanie bezpečných knižníc od zvolenej inštitúcie, ktoré majú v okruhu 500m minimum nahlásených požiarov
 
 
-**Data source**: `<fill in>`
+**Data source**: 
+- [Open Street Maps](https://www.openstreetmap.org/)
+- [San Fransisco Fire incidents](https://data.sfgov.org/widgets/nuek-vuh3)
 
-**Technologies used**: `<fill in>`
+**Technologies used**: `Spring Web MVC, jQuery, PostgreSQL, Ajax, Bootstrap`
