@@ -9,16 +9,16 @@ Táto aplikácia ukazuje inštitúcie typu college, school a university v San Fr
 ### Ukážka funkcionality:
 
 - Úvodná obrazovka
-![Screenshot](screenshot_1.png)
+![Screenshot](Screenshot_1.png)
 
 - Vyhľadanie inštitúcií
-![Screenshot](screenshot_2.png)
+![Screenshot](Screenshot_2.png)
 
 - Vyhľadanie bezpečnej knižnice pre zvolenú inštitúciu
-![Screenshot](screenshot_3.png)
+![Screenshot](Screenshot_3.png)
 
 - Heatmapa požiarných incidentov v San Fransiscu
-![Screenshot](screenshot_4.png)
+![Screenshot](Screenshot_4.png)
 
 Aplikácia pozostáva z 2-och samostatných celkov -- frontendový klient ako [frontendová webová aplikácia](#frontend) používajúca mapbox API (mapbox.js) a [backend-ová časť aplikácie](#backend) napísaná v [Java (Spring)](https://spring.io), zabezpečujúca komunikáciu s PostGIS-om. Klientská časť komunikuje s backendovou pomocou Ajax volaní skrz [REST API](#api).
 
